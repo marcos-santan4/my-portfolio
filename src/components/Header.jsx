@@ -24,7 +24,6 @@ export default function Header() {
           Marco DEV
         </a>
         <div className="flex items-center space-x-6">
-          <ThemeToggle />
           <div className="hidden md:flex space-x-6">
             {navLinks.map((link) => (
               <a

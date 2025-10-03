@@ -1,11 +1,13 @@
 import Image from "next/image";
 import dissulba from "../styles/images/dissulba_logo.png";
+import { Briefcase } from "react-feather";
 
 export default function Projects() {
   return (
     <section id="projects" class="py-16">
-      <h2 class="text-3xl font-bold mb-12 text-center text-primary dark:text-accent">
-        <i data-feather="folder" class="inline mr-2"></i>Featured Projects
+      <h2 class="text-3xl font-bold mb-12 text-center text-green-500 dark:text-accent">
+        <Briefcase class="inline mr-2" />
+        Featured Projects
       </h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div class="project-card bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-md">
@@ -128,14 +130,14 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div class="text-center mt-12">
+      {/* <div class="text-center mt-12">
         <a
           href="#"
           class="px-6 py-3 border-2 border-primary text-primary dark:border-accent dark:text-accent rounded-full font-medium hover:bg-gray-100 dark:hover:bg-gray-800 transition inline-flex items-center"
         >
           <i data-feather="folder-plus" class="mr-2"></i> View All Projects
         </a>
-      </div>
+      </div> */}
     </section>
   );
 }

@@ -1,22 +1,14 @@
-import {
-  Mail,
-  Phone,
-  MapPin,
-  GitHub,
-  Linkedin,
-  Twitter,
-  Dribbble,
-} from "react-feather";
+import { Mail, Phone, MapPin, GitHub, Linkedin } from "react-feather";
 import React from "react";
 
 export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-16 bg-primary dark:bg-secondary rounded-3xl px-8 text-white"
+      className="py-16 bg-gray-900 rounded-3xl px-8 text-white"
     >
-      <h2 className="text-3xl font-bold mb-12 text-center text-white">
-        <Mail className="inline mr-2 w-8 h-8" />
+      <h2 className="text-3xl font-bold mb-12 text-center text-green-500">
+        <Mail className="inline mr-2" />
         Get In Touch
       </h2>
       <div className="max-w-2xl mx-auto">
@@ -65,7 +57,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="w-full md:w-auto px-8 py-3 bg-accent hover:bg-green-600 text-white rounded-lg font-medium transition"
+            className="w-full md:w-auto px-8 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg font-medium transition m"
           >
             Send Message
           </button>

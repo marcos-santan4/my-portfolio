@@ -16,17 +16,8 @@ export default function Home() {
       <main className="pt-24 pb-16 container mx-auto px-6">
         <Hero />
         <About />
-
-        <hr className="my-16 border-gray-200 dark:border-gray-700" />
-
         <Skills />
-
-        <hr className="my-16 border-gray-200 dark:border-gray-700" />
-
         <Projects />
-
-        <hr className="my-16 border-gray-200 dark:border-gray-700" />
-
         <Contact />
       </main>
 
